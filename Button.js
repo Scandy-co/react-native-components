@@ -9,9 +9,9 @@ import color from 'color'
 import Surface from './Surface'
 import Text from './Typography/Text'
 import Touchable from './Touchable'
-import { black, white } from '../styles/colors'
-import { withTheme } from '../common/theming'
-import type { Theme } from '../types'
+import { black, white } from './colors'
+import { withTheme } from './theming'
+import type { Theme } from './types'
 // import type { IconSource } from './Icon';
 
 const AnimatedSurface = Animated.createAnimatedComponent(Surface)
